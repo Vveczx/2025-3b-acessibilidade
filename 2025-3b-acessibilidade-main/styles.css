@@ -9,6 +9,7 @@
     --cinzacinzas: #aec3b0ff;
     --bege: #eff6e0ff;
     --laranja-claro: #FF862A;
+    --rosa: #a53860;
 }
 
 body {
@@ -67,7 +68,7 @@ width: 30%;
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--azul);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -89,8 +90,8 @@ width: 30%;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('') top right no-repeat,
+        url('') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -109,7 +110,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: var(--preto);
 }
 
 #galeria {
@@ -118,12 +119,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url(img/skibidi.png) ;
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -131,7 +132,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: var(--cinzacinzas);
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -142,12 +143,32 @@ h2 {
 }
 
 .formulario button {
-    background-color: var(--verde-meianoite);
+    background-color: var(--preto);
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: var(--cinzacinzas);
+    background-color: var(--azul);
 }
+.menu-acebibilidade{
+     position:fixed;
+     top: 2rem;
+     right: 20px;
+     z-index: 1000;
+}
+
+.rotacao-menu{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta
